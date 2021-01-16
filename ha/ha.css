@@ -211,12 +211,21 @@ iframe{
 
 
 .text-on{
-    font-size: calc(1.5vw + 5px);
+    font-size: calc(1.2vw + 5px);
     line-height: 1.4;
     position:absolute;
     top:0;
     left:0;
     
+}
+
+.text-sub{
+    font-weight: 300;
+    font-size: 20px;
+}
+.text-subb{
+    font-weight: 500;
+    font-size: 20px;
 }
 
 .text-item:nth-child(2){
@@ -247,15 +256,18 @@ iframe{
 .photo-con:nth-child(1){
     /* background:red; */
     background:url("../images/1.png") no-repeat;
-    background-size: cover;
+    background-size: 120%;
+    background-position: center;
 }
 .photo-con:nth-child(2){
     /* background:red; */
     background:url("../images/4.png") no-repeat;
-    background-size: cover;
+    background-size: 120%;
+    background-position: center;
 }
 .photo-con:nth-child(3){
     /* background:red; */
     background:url("../images/2.png") no-repeat;
-    background-size: cover;
+    background-size: 120%;
+    background-position: center;
 }

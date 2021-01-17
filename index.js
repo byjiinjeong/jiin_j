@@ -8,16 +8,14 @@ window.addEventListener('load', () => {
     // loading.style.opacity = 0;
     // loading.style.pointerEvent= "none";
    
-    setTimeout(() => {
-        loadText.innerText = "finished";
-    },6000);
+  
     setTimeout(() => {
         body.style.overflow = "auto";
         loading.style.zIndex=  -1;
         loading.style.opacity = 0;
         loading.style.pointerEvent= "none";
         // loading.style.display = "none";
-    },7000);
+    },5000);
 });
 
 

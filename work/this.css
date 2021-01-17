@@ -598,7 +598,7 @@ iframe{
     animation: animatee 3s linear infinite;
     
 }
-
+/* aron */
 .title-six{
     text-align: center;
     font-size: 40px;
@@ -721,6 +721,42 @@ iframe{
 
 }
 
+
+.title-saron{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 3;
+    position: relative;
+}
+
+.video-saron{
+    width:100%;
+    display:flex;
+    height: calc(40vw + 200px);
+    margin-bottom: 30px;
+    /* background:red; */
+    gap: 20px;
+    /* background:gainsboro; */
+}
+
+
+.video-saron > div:nth-child(1){
+    width: 100%;
+    height:100%;
+    background:url("../images/94.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.video-saron > div:nth-child(2){
+    width:100%;
+    height:100%;
+    background:url("../images/95.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
 .title-eight{
     text-align: center;
     font-size: 40px;
@@ -739,19 +775,12 @@ iframe{
 
 .video-eight > div:nth-child(1){
     height:100%;
-    flex:1.3;
-    background:url("../images/48.jpg") no-repeat;
+    flex:1;
+    background:url("../images/96.jpg") no-repeat;
     background-size: cover;
     background-position: left;
 }
-.video-eight > div:nth-child(2){
-    flex:2;
-    background:blue;
-    height:100%;
-    background:url("../images/47.jpg") no-repeat;
-    background-size: cover;
-    background-position: center;
-}
+
 
 .ev-eight{
     display:flex;
@@ -765,7 +794,7 @@ iframe{
 .ev-eight > div{
     width:100%;
     height:100%;
-    background:url("../images/50.jpg") no-repeat;
+    background:url("../images/97.jpg") no-repeat;
     background-size: cover;
     background-position: center;
 }
@@ -1217,8 +1246,4 @@ iframe{
     background-size: 90%;
     background-position: center;
 }
-
-
-
-
 
